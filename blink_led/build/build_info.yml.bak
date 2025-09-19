@@ -1,0 +1,5 @@
+west:
+  command: C:\Users\Lince\AppData\Roaming\Python\Python313\Scripts\west build -p always
+    -b nucleo_l152re
+  topdir: C:\Users\Lince\zephyr_project\zephyrproject
+  version: 1.4.0
