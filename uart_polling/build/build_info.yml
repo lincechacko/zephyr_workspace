@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling'
+    source-dir: 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling'
+  board:
+    name: 'nucleo_l152re'
+    path:
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re'
+    qualifiers: 'stm32l152xe'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/bindings'
+    files:
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re/nucleo_l152re.dts'
+    include-dirs:
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/ambiq/dts'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/atmel/include'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/bouffalolab/include'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/gigadevice/include'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/microchip/include'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/microchip/dts'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/nuvoton/dts'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/nxp/dts'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/stm32/dts'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/ti/dts'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/common'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/vendor'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/rx'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/x86'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/xtensa'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/sparc'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/riscv'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/posix'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm64'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arc'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts'
+  kconfig:
+    files:
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re/nucleo_l152re_defconfig'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling/prj.conf'
+    user-files:
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/zephyr-sdk-0.17.4'
+  zephyr:
+    version: '4.2.99'
+    zephyr-base: 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\Lince\AppData\Roaming\Python\Python313\Scripts\west build -p always -b nucleo_l152re'
+  topdir: 'C:\Users\Lince\zephyr_project\zephyrproject'
+  version: '1.4.0'
