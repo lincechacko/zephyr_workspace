@@ -1,51 +1,22 @@
-
-
 {
-    "version": "0.2.0",
+    "version": "0.2.0"
     "configurations": [
         {
-            "name": "debug stm",
-            "request": "launch",
-            "type": "cppdbg",
-            "program": "${input:elfPath}",
-            "args": [],
-            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:/Users/Lince/zephyr_project/zephyrproject/zephyr/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
-            "miDebuggerServerAddress": "localhost:3333",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set disassembly flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                },
-                {
-                "description": "Halt target",
-                "text": "monitor halt",
-                "ignoreFailures": true
-                },
-                {
-                    "description": "Wait for halt",
-                    "text": "monitor wait_halt",
-                    "ignoreFailures": true
-                }
-            ]
-        }
-    ],
-    "inputs": [
-        {
-            "id": "elfPath",
-            "type": "promptString",
-            "description": "Enter the path to the ELF file (e.g., build/zephyr/zephyr.elf)",
-            "default": "build/zephyr/zephyr.elf"
+            "executable": "C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_asynchronous/build/zephyr/zephyr.elf",
+            "name": "debug with openocd",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": [
+                
+                    "C:/Program Files/xpack-openocd-0.12.0-6/openocd/scripts/interface/stlink-v2.cfg",
+                    "C:/Program Files/xpack-openocd-0.12.0-6/openocd/scripts/target/stm32g0x.cfg"
+
+            ],
+            "searchDir": [],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
         }
     ]
 }

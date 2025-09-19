@@ -23,34 +23,6 @@ static int usart2_init(void);
 static void uartCallback(const struct device *dev, struct uart_event *evt, void *user_data);
 static void enable_usart2Receiving(void);
 
-
-int main()
-{
-    usart2_init();
-    enable_usart2Receiving();
-
-    while(1)
-    {
-       int error = uart_tx(usart2,tx_buffer,sizeof(tx_buffer),200);
-       if(error)
-       {
-        return -1;
-       }
-        k_msleep(1000);
-        if(dataReceived == true)
-        {
-            error = uart_tx(usart2,rx_buffer,sizeof(rx_buffer),200);
-            if(error)
-            {
-                return -1;
-            }
-            dataReceived = false; 
-        }
- 
-    }
-    return 0;
-}
-
 static int usart2_init(void)
 {
     if(!device_is_ready(usart2))
@@ -112,4 +84,32 @@ static void uartCallback(const struct device *dev, struct uart_event *evt, void 
 static void enable_usart2Receiving(void)
 {
     uart_rx_enable(usart2,rx_buffer,sizeof(rx_buffer),200);
+}
+
+
+int main()
+{
+    usart2_init();
+    enable_usart2Receiving();
+
+    while(1)
+    {
+       int error = uart_tx(usart2,tx_buffer,sizeof(tx_buffer),200);
+       if(error)
+       {
+        return -1;
+       }
+        k_msleep(1000);
+        if(dataReceived == true)
+        {
+            error = uart_tx(usart2,rx_buffer,sizeof(rx_buffer),200);
+            if(error)
+            {
+                return -1;
+            }
+            dataReceived = false; 
+        }
+ 
+    }
+
 }

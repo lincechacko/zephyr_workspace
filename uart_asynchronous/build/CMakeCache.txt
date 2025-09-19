@@ -608,7 +608,7 @@ SOC_LINKER_SCRIPT:INTERNAL=C:/Users/Lince/zephyr_project/zephyrproject/zephyr/in
 //West
 WEST:INTERNAL=C:/Program Files/Python313/python.exe;-m;west
 //Cached environment variable ZEPHYR_SDK_INSTALL_DIR
-ZEPHYR_SDK_INSTALL_DIR:INTERNAL=C:\Users\Lince\zephyr_project\zephyrproject\zephyr\zephyr-sdk-0.17.4
+ZEPHYR_SDK_INSTALL_DIR:INTERNAL=C:\Users\Lince\.zephyr_ide\toolchains
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure

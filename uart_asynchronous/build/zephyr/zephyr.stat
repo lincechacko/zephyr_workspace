@@ -40,10 +40,10 @@ Section Headers:
   [16] .debug_aranges    PROGBITS        00000000 003bf8 000ed8 00      0   0  8
   [17] .debug_info       PROGBITS        00000000 004ad0 02a699 00      0   0  1
   [18] .debug_abbrev     PROGBITS        00000000 02f169 0092f5 00      0   0  1
-  [19] .debug_line       PROGBITS        00000000 03845e 01b5e6 00      0   0  1
-  [20] .debug_frame      PROGBITS        00000000 053a44 001f60 00      0   0  4
-  [21] .debug_str        PROGBITS        00000000 0559a4 007d38 01  MS  0   0  1
-  [22] .debug_loc        PROGBITS        00000000 05d6dc 013908 00      0   0  1
+  [19] .debug_line       PROGBITS        00000000 03845e 01b5e9 00      0   0  1
+  [20] .debug_frame      PROGBITS        00000000 053a48 001f60 00      0   0  4
+  [21] .debug_str        PROGBITS        00000000 0559a8 007d38 01  MS  0   0  1
+  [22] .debug_loc        PROGBITS        00000000 05d6e0 013908 00      0   0  1
   [23] .debug_ranges     PROGBITS        00000000 070fe8 003ac0 00      0   0  8
   [24] .ARM.attributes   ARM_ATTRIBUTES  00000000 074aa8 000030 00      0   0  1
   [25] .last_section     PROGBITS        08003b00 003bd4 000004 00  WA  0   0  4

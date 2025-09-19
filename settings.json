@@ -1,0 +1,9 @@
+{   "cortex-debug.gdbPath": "C:/Users/Lince/zephyr_project/zephyrproject/zephyr/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+    "cortex-debug.openocdPath": "C:/Program Files/xpack-openocd-0.12.0-6/bin/openocd",
+    "files.associations": {
+        "uart.h": "c",
+        "kernel.h": "c",
+        "printk.h": "c"
+    },
+    "git.ignoreLimitWarning": true
+}
