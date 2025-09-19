@@ -1265,6 +1265,86 @@
     ],
     [
         [
+            "bool atomic_cas",
+            "atomic_t *target, atomic_val_t old_value,\n\t\t\t atomic_val_t new_value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "bool atomic_ptr_cas",
+            "atomic_ptr_t *target, atomic_ptr_val_t old_value,\n\t\t\t      atomic_ptr_val_t new_value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "atomic_val_t atomic_add",
+            "atomic_t *target, atomic_val_t value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "atomic_val_t atomic_sub",
+            "atomic_t *target, atomic_val_t value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "atomic_val_t atomic_set",
+            "atomic_t *target, atomic_val_t value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "atomic_ptr_val_t atomic_ptr_set",
+            "atomic_ptr_t *target, atomic_ptr_val_t value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "atomic_val_t atomic_or",
+            "atomic_t *target, atomic_val_t value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "atomic_val_t atomic_xor",
+            "atomic_t *target, atomic_val_t value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "atomic_val_t atomic_and",
+            "atomic_t *target, atomic_val_t value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
+            "atomic_val_t atomic_nand",
+            "atomic_t *target, atomic_val_t value"
+        ],
+        "atomic_c.h",
+        true
+    ],
+    [
+        [
             "int sys_cache_data_flush_range",
             "void *addr, size_t size"
         ],
@@ -4621,86 +4701,6 @@
             "struct rtio_pool *pool, struct rtio *r"
         ],
         "rtio.h",
-        false
-    ],
-    [
-        [
-            "bool atomic_cas",
-            "atomic_t *target, atomic_val_t old_value,\n\t\t\t atomic_val_t new_value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "bool atomic_ptr_cas",
-            "atomic_ptr_t *target, atomic_ptr_val_t old_value,\n\t\t\t      atomic_ptr_val_t new_value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "atomic_val_t atomic_add",
-            "atomic_t *target, atomic_val_t value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "atomic_val_t atomic_sub",
-            "atomic_t *target, atomic_val_t value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "atomic_val_t atomic_set",
-            "atomic_t *target, atomic_val_t value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "atomic_ptr_val_t atomic_ptr_set",
-            "atomic_ptr_t *target, atomic_ptr_val_t value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "atomic_val_t atomic_or",
-            "atomic_t *target, atomic_val_t value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "atomic_val_t atomic_xor",
-            "atomic_t *target, atomic_val_t value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "atomic_val_t atomic_and",
-            "atomic_t *target, atomic_val_t value"
-        ],
-        "atomic_c.h",
-        false
-    ],
-    [
-        [
-            "atomic_val_t atomic_nand",
-            "atomic_t *target, atomic_val_t value"
-        ],
-        "atomic_c.h",
         false
     ],
     [

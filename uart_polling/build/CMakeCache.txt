@@ -24,10 +24,10 @@ APPLICATION_CONFIG_DIR:PATH=C:/Users/Lince/zephyr_project/zephyrproject/zephyr_w
 APPLICATION_SOURCE_DIR:PATH=C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling
 
 //Selected board
-BOARD:STRING=nucleo_l152re
+BOARD:STRING=nucleo_g071rb
 
-//Main board directory for board (nucleo_l152re)
-BOARD_DIR:PATH=C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re
+//Main board directory for board (nucleo_g071rb)
+BOARD_DIR:PATH=C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb
 
 //Support board extensions
 BOARD_EXTENSIONS:BOOL=ON
@@ -45,7 +45,7 @@ BYPRODUCT_KERNEL_ELF_NAME:FILEPATH=C:/Users/Lince/zephyr_project/zephyrproject/z
 BYPRODUCT_KERNEL_HEX_NAME:FILEPATH=C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling/build/zephyr/zephyr.hex
 
 //Selected board
-CACHED_BOARD:STRING=nucleo_l152re
+CACHED_BOARD:STRING=nucleo_g071rb
 
 //Selected shield
 CACHED_SHIELD:STRING=
@@ -349,7 +349,7 @@ GPERF:FILEPATH=GPERF-NOTFOUND
 IMGTOOL:FILEPATH=C:/Users/Lince/zephyr_project/zephyrproject/bootloader/mcuboot/scripts/imgtool.py
 
 //Path to a program.
-OPENOCD:FILEPATH=C:/Program Files (x86)/OpenOCD-20250710-0.12.0/bin/openocd.exe
+OPENOCD:FILEPATH=C:/Program Files/xpack-openocd-0.12.0-6/bin/openocd.exe
 
 //Path to a program.
 PAHOLE:FILEPATH=PAHOLE-NOTFOUND
@@ -428,8 +428,8 @@ my_zephyr_app_SOURCE_DIR:STATIC=C:/Users/Lince/zephyr_project/zephyrproject/zeph
 # INTERNAL cache entries
 ########################
 
-//List of board directories for board (nucleo_l152re)
-BOARD_DIRECTORIES:INTERNAL=C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re
+//List of board directories for board (nucleo_g071rb)
+BOARD_DIRECTORIES:INTERNAL=C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb
 //DT bindings root directories
 CACHED_DTS_ROOT_BINDINGS:INTERNAL=C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/bindings
 //ADVANCED property for variable: CMAKE_ADDR2LINE
@@ -599,7 +599,7 @@ HWM:INTERNAL=v2
 //Zephyr hardware model
 HWMv2:INTERNAL=True
 KERNEL_META_PATH:INTERNAL=C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling/build/zephyr/zephyr.meta
-//List of SoC directories for SoC (stm32l152xe)
+//List of SoC directories for SoC (stm32g071xx)
 SOC_DIRECTORIES:INTERNAL=C:/Users/Lince/zephyr_project/zephyrproject/zephyr/soc/st/stm32
 SOC_LINKER_SCRIPT:INTERNAL=C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/arch/arm/cortex_m/scripts/linker.ld
 //West

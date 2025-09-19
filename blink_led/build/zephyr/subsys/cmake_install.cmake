@@ -39,117 +39,117 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/canbus/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/canbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/debug/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/fb/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/fb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/fs/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/fs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/gnss/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/gnss/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/ipc/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/ipc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/logging/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/mem_mgmt/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/mem_mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/mgmt/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/modbus/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/modbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/pm/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/pmci/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/pmci/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/portability/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/portability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/random/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/random/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/rtio/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/rtio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/sd/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/sd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/stats/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/stats/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/storage/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/task_wdt/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/task_wdt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/testsuite/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/testsuite/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/tracing/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/tracing/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/usb/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/usb/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/subsys/install_local_manifest.txt"
+  file(WRITE "C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/subsys/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

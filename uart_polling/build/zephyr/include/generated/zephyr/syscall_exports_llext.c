@@ -7,6 +7,16 @@
  */
 
 /* Symbol declarations */
+extern void * const z_impl_atomic_add;
+extern void * const z_impl_atomic_and;
+extern void * const z_impl_atomic_cas;
+extern void * const z_impl_atomic_nand;
+extern void * const z_impl_atomic_or;
+extern void * const z_impl_atomic_ptr_cas;
+extern void * const z_impl_atomic_ptr_set;
+extern void * const z_impl_atomic_set;
+extern void * const z_impl_atomic_sub;
+extern void * const z_impl_atomic_xor;
 extern void * const z_impl_device_deinit;
 extern void * const z_impl_device_get_binding;
 extern void * const z_impl_device_get_by_dt_nodelabel;
@@ -167,6 +177,16 @@ extern void * const z_impl_zephyr_read_stdin;
 extern void * const z_impl_zephyr_write_stdout;
 
 /* Exported symbols */
+EXPORT_SYMBOL(z_impl_atomic_add);
+EXPORT_SYMBOL(z_impl_atomic_and);
+EXPORT_SYMBOL(z_impl_atomic_cas);
+EXPORT_SYMBOL(z_impl_atomic_nand);
+EXPORT_SYMBOL(z_impl_atomic_or);
+EXPORT_SYMBOL(z_impl_atomic_ptr_cas);
+EXPORT_SYMBOL(z_impl_atomic_ptr_set);
+EXPORT_SYMBOL(z_impl_atomic_set);
+EXPORT_SYMBOL(z_impl_atomic_sub);
+EXPORT_SYMBOL(z_impl_atomic_xor);
 EXPORT_SYMBOL(z_impl_device_deinit);
 EXPORT_SYMBOL(z_impl_device_get_binding);
 EXPORT_SYMBOL(z_impl_device_get_by_dt_nodelabel);

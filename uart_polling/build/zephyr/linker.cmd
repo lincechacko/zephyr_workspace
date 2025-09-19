@@ -1,9 +1,9 @@
  OUTPUT_FORMAT("elf32-littlearm")
-_region_min_align = 32;
+_region_min_align = 256;
 MEMORY
     {
-    FLASH (rx) : ORIGIN = (0x8000000 + 0x0), LENGTH = (512 * 1024 - 0x0 - 0x0)
-    RAM (wx) : ORIGIN = 0x20000000, LENGTH = (80 * 1K)
+    FLASH (rx) : ORIGIN = (0x8000000 + 0x0), LENGTH = (128 * 1024 - 0x0 - 0x0)
+    RAM (wx) : ORIGIN = 0x20000000, LENGTH = (36 * 1K)
    
     IDT_LIST (wx) : ORIGIN = 0xFFFF7FFF, LENGTH = 32K
     }
@@ -48,8 +48,8 @@ HIDDEN(__rom_start_address = .);
 FILL(0x00);
 . += 0x0 - (. - __rom_start_address);
 . = ALIGN(4);
-. = ALIGN( 1 << LOG2CEIL(4 * 32) );
-. = ALIGN( 1 << LOG2CEIL(4 * (16 + 57)) );
+. = ALIGN( 1 << LOG2CEIL(4 * 64) );
+. = ALIGN( 1 << LOG2CEIL(4 * (16 + 31)) );
 _vector_start = .;
 KEEP(*(.exc_vector_table))
 KEEP(*(".exc_vector_table.*"))
@@ -405,7 +405,7 @@ noinit (NOLOAD) :
         *(.noinit)
         *(".noinit.*")
 } > RAM AT > RAM
-    __kernel_ram_end = 0x20000000 + (80 * 1K);
+    __kernel_ram_end = 0x20000000 + (36 * 1K);
     __kernel_ram_size = __kernel_ram_end - __kernel_ram_start;
     .last_ram_section (NOLOAD) :
     {

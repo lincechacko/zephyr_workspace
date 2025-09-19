@@ -1,18 +1,18 @@
 cmake:
   application:
-    configuration-dir: 'C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led'
-    source-dir: 'C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led'
+    configuration-dir: 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led'
+    source-dir: 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led'
   board:
-    name: 'nucleo_l152re'
+    name: 'nucleo_g071rb'
     path:
-     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re'
-    qualifiers: 'stm32l152xe'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb'
+    qualifiers: 'stm32g071xx'
     revision: ''
   devicetree:
     bindings-dirs:
      - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/bindings'
     files:
-     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re/nucleo_l152re.dts'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb/nucleo_g071rb.dts'
     include-dirs:
      - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/ambiq/dts'
      - 'C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/atmel/include'
@@ -41,10 +41,10 @@ cmake:
      - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts'
   kconfig:
     files:
-     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re/nucleo_l152re_defconfig'
-     - 'C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/prj.conf'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb/nucleo_g071rb_defconfig'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/prj.conf'
     user-files:
-     - 'C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/prj.conf'
+     - 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/prj.conf'
   toolchain:
     name: 'zephyr'
     path: 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr/zephyr-sdk-0.17.4'
@@ -53,6 +53,6 @@ cmake:
     zephyr-base: 'C:/Users/Lince/zephyr_project/zephyrproject/zephyr'
 version: '0.1.0'
 west:
-  command: 'C:\Users\Lince\AppData\Roaming\Python\Python313\Scripts\west build -p always -b nucleo_l152re'
+  command: 'C:\Users\Lince\AppData\Roaming\Python\Python313\Scripts\west build -p always -b nucleo_g071rb'
   topdir: 'C:\Users\Lince\zephyr_project\zephyrproject'
   version: '1.4.0'

@@ -1,18 +1,21 @@
 empty_file.o: \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/misc/empty_file.c \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re/nucleo_l152re.dts \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/l1/stm32l152Xe.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb/nucleo_g071rb.dts \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/g0/stm32g071Xb.dtsi \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/common/mem.h \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/l1/stm32l152.dtsi \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/l1/stm32l151.dtsi \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/l1/stm32l1.dtsi \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/armv7-m.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/g0/stm32g071.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/g0/stm32g051.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/g0/stm32g031.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/g0/stm32g030.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/st/g0/stm32g0.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/arm/armv6-m.dtsi \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/common/skeleton.dtsi \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/clock/stm32l1_clock.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/clock/stm32g0_clock.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/clock/stm32_common_clocks.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/dma/stm32_dma.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/adc/adc.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/dt-util.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/sys/util_macro.h \
@@ -23,19 +26,18 @@ empty_file.o: \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_inc.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_dec.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/sys/util_internal_util_x2.h \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pwm/stm32_pwm.h \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/dma/stm32_dma.h \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/adc/stm32f4_adc.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/adc/stm32l4_adc.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/adc/stm32_adc.h \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/reset/stm32l1_reset.h \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/reset/stm32-common.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/power/stm32_pwr.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pwm/stm32_pwm.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/reset/stm32g0_reset.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/reset/stm32-common.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/dts/common/freq.h \
- C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/stm32/dts/st/l1/stm32l152retx-pinctrl.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/modules/hal/stm32/dts/st/g0/stm32g071r(6-8-b)tx-pinctrl.dtsi \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/pinctrl/stm32-pinctrl-common.h \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re/arduino_r3_connector.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb/arduino_r3_connector.dtsi \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/gpio/arduino-header-r3.h \
- C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re/st_morpho_connector.dtsi \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb/st_morpho_connector.dtsi \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/gpio/st-morpho-header.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h

@@ -14,6 +14,16 @@ static void * const no_syscall_impl Z_GENERIC_SECTION(llext_no_syscall_impl);
  * linker outside this file will be exported as NULL and simply fail when
  * an extension requiring them is loaded.
  */
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_add;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_and;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_cas;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_nand;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_or;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_ptr_cas;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_ptr_set;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_set;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_sub;
+extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_atomic_xor;
 extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_device_deinit;
 extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_device_get_binding;
 extern __weak ALIAS_OF(no_syscall_impl) void * const z_impl_device_get_by_dt_nodelabel;

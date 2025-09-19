@@ -1,2 +1,0 @@
-# Load board Kconfig descriptions.
-osource "C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re/Kconfig.nucleo_l152re"

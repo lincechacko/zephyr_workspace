@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/modules/trusted-firmware-m/install_local_manifest.txt"
+  file(WRITE "C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/modules/trusted-firmware-m/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

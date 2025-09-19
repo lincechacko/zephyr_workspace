@@ -10,7 +10,7 @@ const struct device *uart_dev = DEVICE_DT_GET(UART_DEVICE_NODE);
  * modify to change the configs 
 */
 struct uart_config uart_cfg = {    
-	.baudrate = 9600,
+	.baudrate = 115200,
 	.parity = UART_CFG_PARITY_NONE,
 	.stop_bits = UART_CFG_STOP_BITS_1,
 	.flow_ctrl = UART_CFG_FLOW_CTRL_NONE,
@@ -32,7 +32,7 @@ int main()
         {
             uart_poll_out(uart_dev, hello[i]); /*transmitting the data through uart in polling*/
         }
-
+        printf("hello world");
         k_msleep(1000);
     }
     

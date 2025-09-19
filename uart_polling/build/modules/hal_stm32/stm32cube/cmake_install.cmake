@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling/build/modules/hal_stm32/stm32cube/stm32l1xx/cmake_install.cmake")
+  include("C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/uart_polling/build/modules/hal_stm32/stm32cube/stm32g0xx/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

@@ -1,12 +1,12 @@
 linker.cmd: \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/arch/arm/cortex_m/scripts/linker.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/zephyr/autoconf.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/zephyr/autoconf.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/sections.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/section_tags.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/toolchain.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/devicetree.h \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/zephyr/devicetree_generated.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/zephyr/devicetree_generated.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/irq_multilevel.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/sys/util.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/sys/util_macro.h \
@@ -35,14 +35,14 @@ linker.cmd: \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/devicetree_regions.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/linker-defs.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/toolchain/common.h \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/zephyr/offsets.h \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/zephyr/offsets.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/linker-tool.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/linker-tool-gcc.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/kernel/mm.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/linker-devnull.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/rel-sections.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-rom-start.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-rom-start.ld \
  c:\users\lince\zephyr_project\zephyrproject\zephyr\arch\common\rom_start_address.ld \
  c:\users\lince\zephyr_project\zephyrproject\zephyr\arch\common\fill_with_zeros.ld \
  c:\users\lince\zephyr_project\zephyrproject\zephyr\arch\common\rom_start_offset.ld \
@@ -54,7 +54,7 @@ linker.cmd: \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-kernel-devices.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/iterable_sections.h \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/device-deps.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/device-api-sections.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/device-api-sections.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-ztest.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-init.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-net.ld \
@@ -63,24 +63,24 @@ linker.cmd: \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-debug.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-interrupt-controllers.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-rom/common-rom-misc.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-rom-sections.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-rom-sections.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/thread-local-storage.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-rodata.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-rodata.ld \
  c:\users\lince\zephyr_project\zephyrproject\zephyr\arch\arm\core\swi_tables.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/kobject-rom.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/cplusplus-rom.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-ram-sections.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-ram-sections.ld \
  c:\users\lince\zephyr_project\zephyrproject\zephyr\arch\common\ramfunc.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-ramfunc-section.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-rwdata.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-ramfunc-section.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-rwdata.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-ram.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/kobject-data.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/cplusplus-ram.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-data-sections.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-sections.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-data-sections.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-sections.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/intlist.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/debug-sections.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/common-noinit.ld \
- C:/Users/Lince/zephyr_project/zephyrproject/workspace/blink_led/build/zephyr/include/generated/snippets-noinit.ld \
+ C:/Users/Lince/zephyr_project/zephyrproject/zephyr_workspace/blink_led/build/zephyr/include/generated/snippets-noinit.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/kobject-priv-stacks.ld \
  C:/Users/Lince/zephyr_project/zephyrproject/zephyr/include/zephyr/linker/ram-end.ld

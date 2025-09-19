@@ -2,6 +2,8 @@
 runners:
 - stm32cubeprogrammer
 - openocd
+- pyocd
+- jlink
 
 # Default flash runner if --runner is not given.
 flash-runner: stm32cubeprogrammer
@@ -11,14 +13,14 @@ debug-runner: openocd
 
 # Common runner configuration values.
 config:
-  board_dir: C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_l152re
+  board_dir: C:/Users/Lince/zephyr_project/zephyrproject/zephyr/boards/st/nucleo_g071rb
   # Build outputs:
   elf_file: zephyr.elf
   hex_file: zephyr.hex
   bin_file: zephyr.bin
   # Host tools:
   gdb: C:/Users/Lince/zephyr_project/zephyrproject/zephyr/zephyr-sdk-0.17.4/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
-  openocd: C:/Program Files (x86)/OpenOCD-20250710-0.12.0/bin/openocd.exe
+  openocd: C:/Program Files/xpack-openocd-0.12.0-6/bin/openocd.exe
   openocd_search:
     - C:\Program Files/OpenOCD/share/openocd/scripts
 
@@ -32,4 +34,13 @@ args:
     - flash write_image erase
     - --cmd-verify
     - verify_image
-    - --cmd-erase=stm32l1x mass_erase 0
+    - --cmd-erase=stm32l4x mass_erase 0
+  pyocd:
+    - --dt-flash=y
+    - --target=stm32g071rbtx
+    - --flash-opt=-O reset_type=hw
+    - --flash-opt=-O connect_mode=under-reset
+  jlink:
+    - --dt-flash=y
+    - --device=STM32G071RB
+    - --speed=4000
